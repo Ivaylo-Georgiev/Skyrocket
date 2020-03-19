@@ -1,0 +1,28 @@
+body {
+  overflow-y: hidden;
+}
+
+#home-info {
+  width: 380px;
+}
+
+#home-banner {
+  width: 400px;
+  height: 380px;
+}
+
+#register-button, #log-in-link {
+  color: white;
+  margin-right: 50px;
+}
+
+
+#register-button {
+  background-color: #ffd147;
+  width: 100px;
+  height: 25px;
+  border: solid 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
