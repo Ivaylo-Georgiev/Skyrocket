@@ -16,6 +16,14 @@ body {
   margin-right: 50px;
 }
 
+#home-title {
+  color: white;
+}
+
+#home {
+  background-color: #0048cd;
+  height: calc(100vh - 50px);
+}
 
 #register-button {
   background-color: #ffd147;
