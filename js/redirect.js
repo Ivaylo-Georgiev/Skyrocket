@@ -13,3 +13,7 @@ function redirectToRecruiter() {
 function redirectToTeacher() {
 	location.href = "../html/teacher.html";
 }
+
+function redirectToAdministrator() {
+	location.href = "../html/administrator.html";
+}
