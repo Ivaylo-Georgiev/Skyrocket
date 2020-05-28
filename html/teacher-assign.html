@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assign</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img class="header-logo" src="../resources/images/logo.png" alt="Logo">
+        <h1 class="title-header">Skyrocket™</h1>
+      </div>
+
+      <div>
+        <a href="./teacher.html">Syrio Forell</a>
+        <button class="sign-out"><a href="./index.html">Sign Out</a></button>
+      </div>
+    </header>
+
+    <main>
+      <div class="assignments-container">
+        <h2>Creating a New Assignment...</h2>
+
+        <div class="lhsrhs">
+          <div class="lhs">
+            <p class="no-margin" >Assignment Type:</p>
+            <p class="no-margin" >Description:</p>
+            <p class="no-margin">Deadline:</p>
+          </div>
+
+          <div class="rhs">
+            <select id="assignment-type">
+              <option value=""></option>
+              <option value="homework">Homework</option>
+              <option value="group-project">Group Project</option>
+              <option value="personal-project">Personal Project</option>
+              <option value="paper">Paper</option>
+            </select>
+            <input type="text" id="assignment-description">
+            <input type="date" id="assignment-deadline">
+          </div>
+        </div>
+
+        <button class="create-button"><a href="./404.html">Create Assignment</a></button>
+
+      </div>
+    </main>
+  </body>
+</html>

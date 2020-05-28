@@ -13,7 +13,7 @@
 
 #login-form {
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 #login {
@@ -32,15 +32,6 @@
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   color: black;
-}
-
-input {
-  width: 90%;
-  border-radius: 5px;
-  border: solid #75c7fb 1px;
-  padding: 5px;
-  margin: 5px;
-  margin-bottom: 20px;
 }
 
 input[type="submit"] {

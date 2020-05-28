@@ -1,0 +1,458 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  height: 50px;
+  border-bottom: 1px solid #75c7fb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+input {
+  width: 80%;
+  border-radius: 5px;
+  border: solid #75c7fb 1px;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title-header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  margin-right: 0;
+  padding: 0;
+}
+
+.header-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.sign-out {
+  background-color: #eec44a;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-section, .chats-container, .course-section {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 400px;
+  border-radius: 5px;
+  border: solid #75c7fb 1px;
+}
+
+.profile-info, .chat-list, .course-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: solid #75c7fb 1px;
+  border-right-style: dotted;
+  height: 100%;
+  width: 40%;
+}
+
+.profile-info h2, .profile-info h3, .profile-navigation h2, .profile-navigation h3,
+.course-info h2, .course-navigation h3 {
+  margin: 5px;
+}
+
+.profile-info h2, .profile-navigation h2, .courses-container h2, .grades-container h2,
+.assignments-container h2, .chat-list h2, .previous-search-results h2, .course-info h2,
+.course-navigation h2, .questions-container h2, .announcements-container h2,
+.exams-container h2, .polls-container h2 {
+  color: #0048cd;
+}
+
+.profile-navigation, .course-navigation {
+  display: flex;
+  flex-direction: column;;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+
+.courses-item, .chats-item, .assignments-item, .grades-item, .search-item {
+  margin: 2px;
+}
+
+.user-item {
+  list-style-image: url("../resources/images/user.png");
+}
+
+.courses-item {
+  list-style-image: url("../resources/images/courses.png");
+}
+
+.chats-item {
+  list-style-image: url("../resources/images/chats.png");
+}
+
+.assignments-item {
+  list-style-image: url("../resources/images/assignments.png");
+}
+
+.grades-item {
+  list-style-image: url("../resources/images/grades.png");
+}
+
+.search-item {
+  list-style-image: url("../resources/images/search.png");
+}
+
+.polls-item {
+  list-style-image: url("../resources/images/polls.png");
+}
+
+.announcements-item {
+  list-style-image: url("../resources/images/announcements.png");
+}
+
+.questions-item {
+  list-style-image: url("../resources/images/questions.png");
+}
+
+.resources-item {
+  list-style-image: url("../resources/images/resources.png");
+}
+
+.exams-item {
+  list-style-image: url("../resources/images/exams.png");
+}
+
+.courses-container, .grades-container, .assignments-container, .search-container,
+.questions-container, .announcements-container, .exams-container, .polls-container {
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: solid #75c7fb 1px;
+  min-height: 300px;
+}
+
+.detailed-grades, .detailed-assignments {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding: 5%;
+}
+
+.subject, .assignment-type, .grade, .visibility, .downloads, .assignee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+select, .download-icon {
+  margin: 16px;
+}
+
+.download-icon {
+  cursor: pointer;
+}
+
+.chat-tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 92%;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin: 1%;
+  height: 80px;
+  border: solid 1px #75c7fb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-tab-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 8px;
+}
+
+.chat-tab-user-info h3, .chat-tab-user-info p {
+  margin: 2px;
+}
+
+.chat-conversation {
+  width: 60%;
+  height: 100%;
+}
+
+.chat-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-bottom: dotted 1px #75c7fb;
+}
+
+.message-text {
+  height: 50px;
+  border-top: dotted 1px #75c7fb;
+}
+
+.message-form  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.chat-header-avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.message-form input[type="text"] {
+  width: 250px;
+  margin-top: 10px;
+}
+
+.message-form input[type="submit"] {
+  width: 45px;
+  background-color: #75c7fb;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.received {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bubble {
+  border: 1px solid #75c7fb;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 200px;
+}
+
+#search-form input[type='text'] {
+  width: 350px;
+  font-size: 50px;
+  height: 50px;
+  border: none;
+}
+
+.warning {
+  color: #eec44a;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  text-indent: 50px;
+}
+
+.question-section {
+  width: 80%;
+}
+
+.search-questions-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-questions-form input[type='text'] {
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-questions-form input[type='submit'] {
+  width: 60px;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ask, .upload {
+  background-color: #75c7fb;
+  border-radius: 5px;
+  border: solid #75c7fb 1px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.questions-title {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.questions-title h2 {
+  margin: 0;
+}
+
+.answer-link {
+  color: #75c7fb;
+}
+
+.detailed-exams, .detailed-exams-course{
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+}
+
+.detailed-exams-course .assignment-type, .detailed-exams-course .grade {
+  width: 50%;
+}
+
+.upload {
+  margin: 20px;
+}
+
+.anonymous {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.anonymous input {
+  width: 10px;
+  margin: 10px;
+}
+
+.create-button {
+  background-color: #75c7fb;
+  border-radius: 5px;
+  border: solid #75c7fb 1px;
+  padding: 5px;
+  margin: 10px;
+}
+
+input[type='date'] {
+  border: none;
+  width: 130px;
+}
+
+.assignment-specification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.no-margin {
+  margin-bottom: 0;
+}
+
+.lhs {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.rhs {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lhsrhs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#assignment-type {
+  width: 200px;
+}
+
+#assignment-description, #assignment-deadline {
+  border: 0.5px solid black;
+  width: 197px;
+  padding: 1px;
+  border-radius: 0;
+  margin: 0;
+  margin-left: 16px;
+  margin-bottom: 15px;
+}

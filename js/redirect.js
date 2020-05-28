@@ -1,6 +1,15 @@
 function redirectTo404() {
-	const ADDRESS = "../html/404.html";
-	location.href = ADDRESS;
+	location.href = "../html/404.html";
 }
 
-document.querySelector("#register-button").addEventListener("click", redirectTo404);
+function redirectToStudent() {
+	location.href = "../html/student.html";
+}
+
+function redirectToRecruiter() {
+	location.href = "../html/recruiter.html";
+}
+
+function redirectToTeacher() {
+	location.href = "../html/teacher.html";
+}

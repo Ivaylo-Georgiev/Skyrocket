@@ -1,0 +1,44 @@
+.header-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #75c7fb;
+  height: 50px;
+  border-bottom: solid white 1px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 64px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 18px;
+}
+
+#home-info {
+  max-width: 380px;
+}
+
+#home-banner {
+  max-width: 400px;
+  max-height: 380px;
+}
+
+#home-title, #log-in-link, h2 {
+  color: white;
+}
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #0048cd;
+  min-height: 100vh;
+  padding: 30px;
+}
