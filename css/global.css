@@ -399,7 +399,7 @@ select, .download-icon {
   margin: 10px;
 }
 
-.create-button {
+.create-button, .admin-button {
   background-color: #75c7fb;
   border-radius: 5px;
   border: solid #75c7fb 1px;
@@ -407,12 +407,8 @@ select, .download-icon {
   margin: 10px;
 }
 
-.admin-button {
-  background-color: #75c7fb;
-  border-radius: 5px;
-  border: solid #0048cd 1px;
-  padding: 3px;
-  margin: 10px;
+.white {
+  background-color: white;
 }
 
 input[type='date'] {
