@@ -407,6 +407,14 @@ select, .download-icon {
   margin: 10px;
 }
 
+.admin-button {
+  background-color: #75c7fb;
+  border-radius: 5px;
+  border: solid #0048cd 1px;
+  padding: 3px;
+  margin: 10px;
+}
+
 input[type='date'] {
   border: none;
   width: 130px;
